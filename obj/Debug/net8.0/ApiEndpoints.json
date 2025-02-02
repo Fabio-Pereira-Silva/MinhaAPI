@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MinhaApi.Models.UsuarioModel, MinhaApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,8 +28,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "value",
-        "Type": "System.String",
+        "Name": "usuario",
+        "Type": "MinhaApi.Models.UsuarioModel",
         "IsRequired": true
       }
     ],
@@ -57,7 +57,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.String",
+        "Type": "MinhaApi.Models.UsuarioModel",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -81,8 +81,8 @@
         "IsRequired": true
       },
       {
-        "Name": "value",
-        "Type": "System.String",
+        "Name": "usuario",
+        "Type": "MinhaApi.Models.UsuarioModel",
         "IsRequired": true
       }
     ],
